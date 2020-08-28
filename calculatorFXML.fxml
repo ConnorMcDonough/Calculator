@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="310.0" prefWidth="240.0" style="-fx-background-color: dimGray;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.CalculatorFXMLController">
+   <children>
+      <Button layoutX="-1.0" layoutY="263.0" mnemonicParsing="false" onAction="#zeroB" prefHeight="45.0" prefWidth="120.0" style="-fx-background-radius: 0; -fx-background-color: darkGray;" text="0" />
+      <Button layoutY="215.0" mnemonicParsing="false" onAction="#oneB" prefHeight="45.0" prefWidth="59.25" style="-fx-background-radius: 0; -fx-background-color: darkGray;" text="1">
+         <effect>
+            <InnerShadow choke="1.0" color="#505050" height="5.0" radius="2.55" width="7.2" />
+         </effect>
+      </Button>
+      <Button layoutX="60.0" layoutY="215.0" mnemonicParsing="false" onAction="#twoB" prefHeight="45.0" prefWidth="59.25" style="-fx-background-radius: 0; -fx-background-color: darkGray;" text="2">
+         <effect>
+            <InnerShadow blurType="ONE_PASS_BOX" choke="1.0" color="#505050" height="2.0" radius="1.0" width="4.0" />
+         </effect>
+      </Button>
+      <Button layoutX="121.0" layoutY="215.0" mnemonicParsing="false" onAction="#threeB" prefHeight="45.0" prefWidth="59.25" style="-fx-background-radius: 0; -fx-background-color: darkGray;" text="3">
+         <effect>
+            <InnerShadow blurType="ONE_PASS_BOX" choke="1.0" color="#505050" height="2.0" radius="1.0" width="4.0" />
+         </effect>
+      </Button>
+      <Button layoutX="181.0" layoutY="215.0" mnemonicParsing="false" onAction="#plusB" prefHeight="45.0" prefWidth="59.25" style="-fx-background-radius: 0; -fx-background-color: orange;" text="+">
+         <effect>
+            <InnerShadow blurType="ONE_PASS_BOX" choke="1.0" color="#505050" height="2.0" radius="1.0" width="4.0" />
+         </effect>
+      </Button>
+      <Button layoutX="121.0" layoutY="263.0" mnemonicParsing="false" onAction="#periodB" prefHeight="45.0" prefWidth="59.25" style="-fx-background-radius: 0; -fx-background-color: darkGray;" text=".">
+         <effect>
+            <InnerShadow blurType="ONE_PASS_BOX" choke="1.0" color="#505050" height="2.0" radius="1.0" width="4.0" />
+         </effect>
+      </Button>
+      <Button layoutX="181.0" layoutY="263.0" mnemonicParsing="false" onAction="#equalB" prefHeight="45.0" prefWidth="59.25" style="-fx-background-radius: 0; -fx-background-color: orange;" text="=">
+         <effect>
+            <InnerShadow blurType="ONE_PASS_BOX" choke="1.0" color="#505050" height="2.0" radius="1.0" width="4.0" />
+         </effect>
+      </Button>
+      <Button layoutY="167.0" mnemonicParsing="false" onAction="#fourB" prefHeight="45.0" prefWidth="59.25" style="-fx-background-radius: 0; -fx-background-color: darkGray;" text="4">
+         <effect>
+            <InnerShadow choke="1.0" color="#505050" height="5.0" radius="2.55" width="7.2" />
+         </effect>
+      </Button>
+      <Button layoutX="60.0" layoutY="167.0" mnemonicParsing="false" onAction="#fiveB" prefHeight="45.0" prefWidth="59.25" style="-fx-background-radius: 0; -fx-background-color: darkGray;" text="5">
+         <effect>
+            <InnerShadow blurType="ONE_PASS_BOX" choke="1.0" color="#505050" height="2.0" radius="1.0" width="4.0" />
+         </effect>
+      </Button>
+      <Button layoutX="121.0" layoutY="167.0" mnemonicParsing="false" onAction="#sixB" prefHeight="45.0" prefWidth="59.25" style="-fx-background-radius: 0; -fx-background-color: darkGray;" text="6">
+         <effect>
+            <InnerShadow blurType="ONE_PASS_BOX" choke="1.0" color="#505050" height="2.0" radius="1.0" width="4.0" />
+         </effect>
+      </Button>
+      <Button layoutX="181.0" layoutY="167.0" mnemonicParsing="false" onAction="#minusB" prefHeight="45.0" prefWidth="59.25" style="-fx-background-radius: 0; -fx-background-color: orange;" text="-">
+         <effect>
+            <InnerShadow blurType="ONE_PASS_BOX" choke="1.0" color="#505050" height="2.0" radius="1.0" width="4.0" />
+         </effect>
+      </Button>
+      <Button layoutY="119.0" mnemonicParsing="false" onAction="#sevenB" prefHeight="45.0" prefWidth="59.25" style="-fx-background-radius: 0; -fx-background-color: darkGray;" text="7">
+         <effect>
+            <InnerShadow choke="1.0" color="#505050" height="5.0" radius="2.55" width="7.2" />
+         </effect>
+      </Button>
+      <Button layoutX="60.0" layoutY="119.0" mnemonicParsing="false" onAction="#eightB" prefHeight="45.0" prefWidth="59.25" style="-fx-background-radius: 0; -fx-background-color: darkGray;" text="8">
+         <effect>
+            <InnerShadow blurType="ONE_PASS_BOX" choke="1.0" color="#505050" height="2.0" radius="1.0" width="4.0" />
+         </effect>
+      </Button>
+      <Button layoutX="121.0" layoutY="119.0" mnemonicParsing="false" onAction="#nineB" prefHeight="45.0" prefWidth="59.25" style="-fx-background-radius: 0; -fx-background-color: darkGray;" text="9">
+         <effect>
+            <InnerShadow blurType="ONE_PASS_BOX" choke="1.0" color="#505050" height="2.0" radius="1.0" width="4.0" />
+         </effect>
+      </Button>
+      <Button layoutX="181.0" layoutY="119.0" mnemonicParsing="false" onAction="#timesB" prefHeight="45.0" prefWidth="59.25" style="-fx-background-radius: 0; -fx-background-color: orange;" text="x">
+         <effect>
+            <InnerShadow blurType="ONE_PASS_BOX" choke="1.0" color="#505050" height="2.0" radius="1.0" width="4.0" />
+         </effect>
+      </Button>
+      <Button layoutY="71.0" mnemonicParsing="false" onAction="#clearB" prefHeight="45.0" prefWidth="59.25" style="-fx-background-radius: 0; -fx-background-color: slateGray;" text="AC">
+         <effect>
+            <InnerShadow choke="1.0" color="#505050" height="5.0" radius="2.55" width="7.2" />
+         </effect>
+      </Button>
+      <Button layoutX="60.0" layoutY="71.0" mnemonicParsing="false" onAction="#spaceB" prefHeight="45.0" prefWidth="120.0" style="-fx-background-radius: 0; -fx-background-color: slateGray;" text="Space">
+         <effect>
+            <InnerShadow blurType="ONE_PASS_BOX" choke="1.0" color="#505050" height="2.0" radius="1.0" width="4.0" />
+         </effect>
+      </Button>
+      <Button layoutX="181.0" layoutY="71.0" mnemonicParsing="false" onAction="#devidesB" prefHeight="45.0" prefWidth="59.25" style="-fx-background-radius: 0; -fx-background-color: orange;" text="/">
+         <effect>
+            <InnerShadow blurType="ONE_PASS_BOX" choke="1.0" color="#505050" height="2.0" radius="1.0" width="4.0" />
+         </effect>
+      </Button>
+      <Text fx:id="textEquation" boundsType="VISUAL" fill="WHITE" layoutX="6.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="230.22900390625">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
